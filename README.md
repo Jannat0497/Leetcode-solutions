@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:7C3AED,50:4F46E5,100:0F172A&text=LeetCode%20Solutions&fontSize=52&fontColor=FFFFFF&fontAlignY=40&desc=Turning%20Logic%20into%20Code.&descAlignY=62&descSize=18&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4338CA,50:3B82F6,100:0F172A&height=190&section=header&text=LeetCode%20Solutions&fontSize=54&fontColor=ffffff&fontAlignY=40&desc=Turning%20Logic%20into%20Code.&descAlignY=60&descSize=17&animation=fadeIn" width="100%"/>
 
 <br/>
 
 [![Java](https://img.shields.io/badge/Primary-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)]()
-[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/YOUR_LEETCODE_USERNAME/)
-[![Repository](https://img.shields.io/badge/Repository-Solutions-6f42c1?style=for-the-badge)]()
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Jannat_kataria/)
+[![Repository](https://img.shields.io/badge/Repository-Solutions-6f42c1?style=for-the-badge)](https://github.com/Jannat0497/Leetcode-solutions.git)
 [![Status](https://img.shields.io/badge/Status-Active-22C55E?style=for-the-badge)]()
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_GITHUB_USERNAME)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jannat0497)
 
 </div>
 
@@ -117,8 +117,8 @@ java Solution
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=110&color=0:0F172A,50:4F46E5,100:7C3AED" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:3B82F6,100:4338CA&height=100&section=footer" width="100%"/>
 
-### *Turning Logic into Code.* 🚀
+### ⭐ If you found this repository helpful, consider giving it a star!
 
 </div>
