@@ -5,7 +5,6 @@
 <br/>
 
 [![Java](https://img.shields.io/badge/Primary-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)]()
-[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Jannat_kataria/)
 [![Repository](https://img.shields.io/badge/Repository-Solutions-6f42c1?style=for-the-badge)](https://github.com/Jannat0497/Leetcode-solutions.git)
 [![Status](https://img.shields.io/badge/Status-Active-22C55E?style=for-the-badge)]()
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jannat0497)
@@ -108,8 +107,6 @@ java Solution
 ---
 
 ## 🔗 Connect
-
-- 🟠 **LeetCode:** https://leetcode.com/u/Jannat_kataria/
 - 💼 **LinkedIn:** https://www.linkedin.com/in/jannat-kataria/
 - 🐙 **GitHub:** https://github.com/Jannat0497
 
