@@ -9,7 +9,7 @@ class Solution {
         }
         int count=0;
         for(int i=0;i<nums3.length;i++){
-            for(int j=0;j<nums3.length;j++){
+            for(int j=0;j<nums4.length;j++){
                 int sum=nums3[i]+nums4[j];
                 count+=map.getOrDefault(-sum,0);
             }
