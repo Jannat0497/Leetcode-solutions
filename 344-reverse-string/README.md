@@ -1,22 +1,19 @@
-# 344. Reverse String
+<h2><a href="https://leetcode.com/problems/reverse-string">Reverse String</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Write a function that reverses a string. The input string is given as an array of characters <code>s</code>.</p>
 
-**Difficulty:** Easy
+<p>You must do this by modifying the input array <a href="https://en.wikipedia.org/wiki/In-place_algorithm" target="_blank">in-place</a> with <code>O(1)</code> extra memory.</p>
 
-Write a function that reverses a string. The input string is given as an array of characters s.
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> s = ["h","e","l","l","o"]
+<strong>Output:</strong> ["o","l","l","e","h"]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> s = ["H","a","n","n","a","h"]
+<strong>Output:</strong> ["h","a","n","n","a","H"]
+</pre>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-You must do this by modifying the input array in-place with O(1) extra memory.
-
- 
-Example 1:
-Input: s = ["h","e","l","l","o"]
-Output: ["o","l","l","e","h"]
-Example 2:
-Input: s = ["H","a","n","n","a","h"]
-Output: ["h","a","n","n","a","H"]
-
- 
-Constraints:
-
-
-	1 <= s.length <= 105
-	s[i] is a printable ascii character.
+<ul>
+	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>s[i]</code> is a <a href="https://en.wikipedia.org/wiki/ASCII#Printable_characters" target="_blank">printable ascii character</a>.</li>
+</ul>
