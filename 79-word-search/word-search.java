@@ -1,32 +1,27 @@
 class Solution {
+    public boolean find(char[][] board,String word,int i,int j,int idx){
+        if(idx==word.length()) return true;
+        if(i<0||j<0||i>=board.length||j>=board[0].length || idx> word.length()) return false;
+        if(board[i][j]!=word.charAt(idx)) return false;
+        char temp=board[i][j];
+        board[i][j]='*';
+        boolean check=find(board,word,i+1,j,idx+1) ||
+                find(board,word,i-1 ,j,idx+1)||
+                find(board,word,i,j+1,idx+1)||
+                find(board,word,i,j-1,idx+1);
+        board[i][j]=temp;
+        return check;
+    }
     public boolean exist(char[][] board, String word) {
-        int n = board.length;
-        int m = board[0].length;
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (board[i][j] == word.charAt(0)) {
-                    if (findWord(board, word, i, j, 0)) {
-                        return true; 
-                    }
+        int n=board.length;
+        int m=board[0].length;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                if(find(board,word,i,j,0)){
+                    return true;
                 }
             }
         }
-        return false; 
-    }
-    private boolean findWord(char[][] board, String word, int i, int j, int k) {
-        if (k == word.length()) {
-            return true;
-        }
-        if (i < 0 || i >= board.length || j < 0 || j >= board[0].length || board[i][j] != word.charAt(k)) {
-            return false;
-        }
-        char temp = board[i][j];
-        board[i][j] = '#'; 
-        boolean status = findWord(board, word, i + 1, j, k + 1) ||
-                         findWord(board, word, i - 1, j, k + 1) || 
-                         findWord(board, word, i, j + 1, k + 1) || 
-                         findWord(board, word, i, j - 1, k + 1);   
-        board[i][j] = temp;
-        return status;
+        return false;
     }
 }
